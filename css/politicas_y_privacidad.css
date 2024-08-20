@@ -1,0 +1,43 @@
+.table8{
+    background-color:  rgb(236, 240, 239);
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+.textoprincipal{
+    text-align: center;
+}
+.color1{
+    color: rgb(0, 0, 0);
+}
+.color2{
+    color: rgb(0, 0, 0);
+}
+.color3{
+    color: rgb(0, 0, 0);
+}
+.color4{
+    color: rgb(0, 0, 0);
+}
+.color5{
+    color: rgb(0, 0, 0);
+}
+.color6{
+    color: rgb(0, 0, 0);
+}
+.color7{
+    color: rgb(0, 0, 0);
+}
+
+
+#botonRetroceder {
+    background-color: #7a5856;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer;
+  }
+  
+#botonRetroceder:hover {
+    background-color: #707a56;
+  }

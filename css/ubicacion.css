@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: rgb(236, 240, 239);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#botonRetroceder {
+    background-color: #7a5856;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+#botonRetroceder:hover {
+    background-color: #7a5856;
+}
+
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #e2e6ea;
+    border-color: #ddd;
+}
+
+.address-section {
+    margin-top: 20px;
+}
+
+.address-section input {
+    width: calc(100% - 150px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.address-section button {
+    background-color: #7a5856;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px;
+}
+
+.address-section button:hover {
+    background-color: #7a5856;
+}
+
+
+.map-section iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+    .address-section input {
+        width: calc(100% - 100px);
+    }
+
+    .buttons button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .address-section button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .address-section input {
+        width: calc(100% - 80px);
+    }
+
+    .buttons button {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .address-section button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .map-section iframe {
+        height: 300px;
+    }
+}
